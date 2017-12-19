@@ -1,0 +1,6 @@
+<launch>
+ 
+  <node pkg="arlobot_waypoint" type="waypoint_convert.py" name="waypoint_convert"></node>
+
+  <node pkg="arlobot_waypoint" type="waypoint_control.py" name="waypoint_control" ></node>
+</launch>
